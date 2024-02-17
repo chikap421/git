@@ -10,8 +10,7 @@ This guide provides a structured approach to version control using Git, enabling
 ### Install Git
 Ensure Git is installed on your system. Download from [Git](https://git-scm.com/downloads).
 
-<details>
-<summary><b>Configure Git</b></summary>
+### Configure Git
 
 Open your terminal and configure Git with your identity:
 
@@ -20,8 +19,6 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 This configuration is crucial for commit history and collaboration.
-
-</details>
 
 ## Repository Management
 
@@ -43,8 +40,9 @@ git remote add origin https://github.com/username/repository.git
 Ensure the URL matches your GitHub repository by replacing the `username` and `repository` with the appropriate information.
 
 ## Uploading and Updating Files
-<details>
-<summary><b>Add Files to Git<b></summary>
+
+### Add Files to Git
+
 Track your files with Git:
 
 ``` bash
@@ -55,9 +53,8 @@ Or add specific files:
 git add filename
 ```
 This step stages your changes for a commit.
-</details>
-<details>
-<summary><b>Commit Changes</b></summary>
+
+### Commit Changes
 Commit your staged changes locally:
 
 ```bash 
@@ -65,16 +62,13 @@ git commit -m "Commit message"
 ```
 A clear commit message is key to tracking progress and changes.
 
-</details>
-<details>
-<summary><b>Push Changes to GitHub</b></summary>
+### Push Changes to GitHub
 Upload your commits to GitHub:
 
 ```bash
 git push -u origin main
 ```
 Replace `main` with yout branch name as necessary. This step synchronizes your local repository with the remote.
-</details>
 
 ## Synchronizing Changes
 
