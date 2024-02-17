@@ -4,7 +4,7 @@
 
 Welcome to the **Git Management Guide**, a comprehensive resource designed to streamline your Git workflow and enhance collaboration within your projects. This guide covers essential Git operations, including file management, version control best practices, and collaboration techniques.
 
-![Git Logo](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)
+<img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="100" alt="Git Logo">
 
 ## What's Covered? :bookmark_tabs:
 
