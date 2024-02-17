@@ -85,3 +85,4 @@ To revert a committed change:
 git revert commit_id  # Creates a new commit that undoes the changes
 ```
 
+More changes Loading
