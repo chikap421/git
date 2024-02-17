@@ -1,13 +1,11 @@
 # Git Management Guide :octocat: README <div align="center">
-  <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="100" alt="Git Logo">
-</div>
-
 
 **Keywords**: `Git` :gear:, `Version Control` :repeat:, `Collaboration` :people_holding_hands:, `Git Commands` :computer:, `Best Practices` :star2:, `File Management` :file_folder:
 
-
 Welcome to the **Git Management Guide**, a comprehensive resource designed to streamline your Git workflow and enhance collaboration within your projects. This guide covers essential Git operations, including file management, version control best practices, and collaboration techniques.
-
+<p align="center">
+  <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="100" alt="Git Logo">
+</p>
 
 
 ## What's Covered? :bookmark_tabs:
