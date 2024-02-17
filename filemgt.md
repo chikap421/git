@@ -29,3 +29,27 @@ git push
 This command stages the move (or rename) and commits it in one step.
 
 ## Ignoring Files
+To prevent certain files or patterns from being tracked:
+
+1. Create a .gitignore file in your repository's root.
+2. Add file patterns to ignore.
+
+```bash
+# Ignore all txt files
+*.txt
+# Ignore a specific file
+path/to/myfile.log
+# Ignore all files in a specific directory
+path/to/directory/*
+```
+3. Commit the `.gitignore` file
+```bash
+git add .gitignore
+git commit -m "Add gitignore"
+git push
+```
+
+## Handling Line Endings
+Consistent line endings are important across different operating systems:
+
+. Configure Git to automatically handle line endings:
