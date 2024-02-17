@@ -50,6 +50,15 @@ git push
 ```
 
 ## Handling Line Endings
-Consistent line endings are important across different operating systems:
 
-. Configure Git to automatically handle line endings:
+Consistent line endings are crucial for collaboration across different operating systems. Configure Git to automatically handle line endings:
+
+- **On Windows**
+  ```bash
+  git config --global core.autocrlf true
+
+- **On macOS and Linux**
+  ```bash
+git config --global core.autocrlf input
+```
+
