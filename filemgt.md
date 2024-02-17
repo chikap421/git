@@ -1,8 +1,8 @@
-# Git File Management Guide
+# Git File Management Guide :book:
 
 Git is a powerful tool for version control, allowing you to track changes, collaborate on projects, and more. Here's how to manage files effectively within a Git repository.
 
-## Deleting Files
+## Deleting Files :wastebasket:
 
 To remove a file from both your repository and local filesystem:
 
@@ -18,7 +18,7 @@ git rm --cached path/to/file
 git commit -m "Stop tracking file"
 git push
 ```
-## Renaming Files
+## Renaming Files :pencil2:
 To rename or move a file and track the change:
 
 ```bash
@@ -28,7 +28,7 @@ git push
 ```
 This command stages the move (or rename) and commits it in one step.
 
-## Ignoring Files
+## Ignoring Files :see_no_evil:
 To prevent certain files or patterns from being tracked:
 
 1. Create a .gitignore file in your repository's root.
@@ -49,7 +49,7 @@ git commit -m "Add gitignore"
 git push
 ```
 
-## Handling Line Endings
+## Handling Line Endings :twisted_rightwards_arrows:
 
 Consistent line endings are crucial for collaboration across different operating systems. Configure Git to automatically handle line endings:
 
@@ -65,7 +65,7 @@ git config --global core.autocrlf input
 
 This setup ensures that Git automatically converts CRLF line endings into LF when you add a file to the repository, maintaining consistency.
 
-## Viewing File Changes
+## Viewing File Changes :mag:
 To see what changes have been made:
 
 ```bash
@@ -73,7 +73,7 @@ git diff  # Shows unstaged changes
 git diff --staged  # Shows changes staged for commit
 ```
 
-## Reverting Changes
+## Reverting Changes :back:
 To undo changes in a specific file"
 
 ```bash
@@ -86,6 +86,9 @@ git revert commit_id  # Creates a new commit that undoes the changes
 ```
 To find a `commit_id` for use with commands like `git revert`, you can use the `git log` command, which displays a log of commits for the repository. Here's how:
 
+
+
+## Finding a Specific Commit ID :mag_right:
 ### Viewing Commit History
 1. **Open your terminal** and navigate to your Git repository directory.
 2. **Run the `git log` command**:
@@ -93,7 +96,6 @@ To find a `commit_id` for use with commands like `git revert`, you can use the `
 git log
 ```
 This command shows a list of recent commits, including the commit ID (SHA-1 hash), author, date, and commit message.
-### Finding a Specific Commit ID
 - The output of `git log` will look something like this:
 ``` sql
 commit 1a2b3c4d5e6f7g8h9i0j (HEAD -> main, origin/main)
