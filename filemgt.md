@@ -64,3 +64,24 @@ git config --global core.autocrlf input
 ```
 
 This setup ensures that Git automatically converts CRLF line endings into LF when you add a file to the repository, maintaining consistency.
+
+## Viewing File Changes
+To see what changes have been made:
+
+```bash
+git diff  # Shows unstaged changes
+git diff --staged  # Shows changes staged for commit
+```
+
+## Reverting Changes
+To undo changes in a specific file"
+
+```bash
+git checkout -- path/to/file  # Reverts unstaged changes
+```
+To revert a committed change:
+
+```bash
+git revert commit_id  # Creates a new commit that undoes the changes
+```
+
