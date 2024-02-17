@@ -84,5 +84,37 @@ To revert a committed change:
 ```bash
 git revert commit_id  # Creates a new commit that undoes the changes
 ```
+To find a `commit_id` for use with commands like `git revert`, you can use the `git log` command, which displays a log of commits for the repository. Here's how:
 
-More changes Loading
+### Viewing Commit History
+1. **Open your terminal** and navigate to your Git repository directory.
+2. **Run the `git log` command**:
+```bash
+git log
+```
+This command shows a list of recent commits, including the commit ID (SHA-1 hash), author, date, and commit message.
+### Finding a Specific Commit ID
+- The output of `git log` will look something like this:
+``` sql
+commit 1a2b3c4d5e6f7g8h9i0j (HEAD -> main, origin/main)
+Author: Your Name <you@example.com>
+Date:   Thu Sep 7 12:34:56 2021 -0400
+
+    Your commit message here
+```
+- In this case, the string **`1a2b3c4d5e6f7g8h9i0j`** is the commit ID. 
+### Simplifying the Git Log Output
+- If you want a simpler view of the commit log, you can use:
+``` bash
+git log --oneline
+```
+This command condenses each commit to a single line, showing a short commit ID and the commit message.
+### Using the Commit ID
+- Once you've identified the `commit_id` you want to revert or interact with, you can use it in various Git commands, like:
+```bash
+git revert 1a2b3c4d5e
+```
+- This example reverts the changes introduced by the specified commit. Git will create a new commit that undoes the changes made by **`1a2b3c4d5e`**.
+### Note
+- The `commit_id` is typically a 40-character SHA-1 hash, but you only need to use enough characters to uniquely identify the commit in your repository. Generally, the first 6-10 characters are sufficient.
+- Managing files effectively in Git ensures a clean and traceable development history. Always commit related changes together and write meaningful commit messages.
