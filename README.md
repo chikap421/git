@@ -1,6 +1,12 @@
 # Git Management Guide :octocat: README
 
 **Keywords**: `Git`, `Version Control`, `Collaboration`, `Git Commands`, `Best Practices`, `File Management`
+- `Git` :gear:
+- `Version Control` :repeat:
+- `Collaboration` :people_holding_hands:
+- `Git Commands` :terminal:
+- `Best Practices` :star2:
+- `File Management` :file_folder:
 
 Welcome to the **Git Management Guide**, a comprehensive resource designed to streamline your Git workflow and enhance collaboration within your projects. This guide covers essential Git operations, including file management, version control best practices, and collaboration techniques.
 
