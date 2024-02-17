@@ -58,7 +58,9 @@ Consistent line endings are crucial for collaboration across different operating
   git config --global core.autocrlf true
 
 - **On macOS and Linux**
-  ```bash
+
+```bash
 git config --global core.autocrlf input
 ```
 
+This setup ensures that Git automatically converts CRLF line endings into LF when you add a file to the repository, maintaining consistency.
