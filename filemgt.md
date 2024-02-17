@@ -1,4 +1,13 @@
 # Git File Management Guide :book:
+**Table of Contents**
+- [Git File Management Guide](#git-file-management-guide-book)
+  - [Deleting Files](#deleting-files-wastebasket)
+  - [Renaming Files](#renaming-files-pencil2)
+  - [Ignoring Files](#ignoring-files-see_no_evil)
+  - [Handling Line Endings](#handling-line-endings-twisted_rightwards_arrows)
+  - [Viewing File Changes](#viewing-file-changes-mag)
+  - [Reverting Changes](#reverting-changes-back)
+  - [Finding a Specific Commit ID](#finding-a-specific-commit-id-mag_right)
 
 Git is a powerful tool for version control, allowing you to track changes, collaborate on projects, and more. Here's how to manage files effectively within a Git repository.
 
